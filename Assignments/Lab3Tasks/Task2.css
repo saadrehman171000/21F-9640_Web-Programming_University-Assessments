@@ -1,0 +1,14 @@
+.btn-basic {
+    border: none;
+    background-color: white;
+    box-shadow: none;
+    background-color: rgb(226, 224, 224);
+}
+
+.btn-default {
+    border: 1px solid;
+    background-color: rgba(191, 188, 188, 0.395);
+}
+.btn-warning{
+    color: white;
+}
