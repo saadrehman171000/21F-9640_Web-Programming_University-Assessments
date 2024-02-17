@@ -1,14 +1,11 @@
-body {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    background: #262b39;
-    color: #fff;
-  }
-  
-  button {
-    border: none;
-    background: #00c94d;
-    color: #fff;
-    padding: 15px 20px 15px 20px;
-    border-radius: 3px;
-    cursor: pointer;
-  }
+.box a {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+#box1 { background-color: #63db34; }
+#box2 { background-color: #79cce0; }
+#box3 { background-color: #b5b735; }
+#box4 { background-color: #b5b735; }
+#box5 { background-color: #d592b9; }
+#box6 { background-color: #d592b9; }
