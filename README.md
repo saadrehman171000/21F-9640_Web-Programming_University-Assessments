@@ -1,6 +1,6 @@
 # Web Programming Assignments (University)
 
-This repository contains all the assignments, activities, and projects related to the web programming course at [University Name]. It serves as a resource for students enrolled in the course to access materials, submit assignments, and collaborate on projects.
+This repository contains all the assignments, activities, and projects related to the web programming course at Fast-Nuces. It serves as a resource for students enrolled in the course to access materials, submit assignments, and collaborate on projects.
 
 ## Contents
 
@@ -18,10 +18,7 @@ This repository contains all the assignments, activities, and projects related t
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request. 
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries, you can contact the course instructor or reach out to [your email or contact information].
+For any inquiries, you can reach out to saadrehman17100@gmail.com.
