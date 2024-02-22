@@ -24,4 +24,4 @@ This repository is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries, you can contact the course instructor or reach out to [your email or contact information].
+For any inquiries, you can contact the course instructor or reach out to saadrehman17100@gmail.com
