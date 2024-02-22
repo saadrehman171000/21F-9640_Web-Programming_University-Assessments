@@ -1,6 +1,6 @@
 # Web Programming Assignments (University)
 
-This repository contains all the assignments, activities, and projects related to the web programming course at [University Name]. It serves as a resource for students enrolled in the course to access materials, submit assignments, and collaborate on projects.
+This repository contains all the assignments, activities, and projects related to the web programming course at Fast-Nuces. It serves as a resource for students enrolled in the course to access materials, submit assignments, and collaborate on projects.
 
 ## Contents
 
@@ -10,7 +10,7 @@ This repository contains all the assignments, activities, and projects related t
 
 ## Getting Started
 
-1. Clone this repository to your local machine using `git clone https://github.com/your_username/web-programming-assignments.git`.
+1. Clone this repository to your local machine using `git clone https://github.com/saadrehman171000/web-programming-assignments.git`.
 2. Navigate to the desired directory for the assignment, activity, or project you're working on.
 3. Follow the instructions provided in the respective README files.
 
