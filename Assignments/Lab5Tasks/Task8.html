@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-git.js"></script>
+  <title>Task 8</title>
+  <style>
+    #animatedDiv {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="animatedDiv"></div>
+
+  <script>
+    $(document).ready(function () {
+      $("#animatedDiv").animate({
+        left: "500px"
+      }, 8000);
+    });
+  </script>
+
+</body>
+
+</html>
