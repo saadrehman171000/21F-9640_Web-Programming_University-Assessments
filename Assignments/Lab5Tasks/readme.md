@@ -43,4 +43,4 @@ This repository contained solutions to the lab tasks assigned for Lab 5 of the W
 - **Files**: Task8.html
 
 
-**Lab5Tasks.pdf**: PDF file containing all the codes with their outputs for Lab 5 tasks.
+**pdf**: PDF file containing all the codes with their outputs for Lab 5 tasks.
