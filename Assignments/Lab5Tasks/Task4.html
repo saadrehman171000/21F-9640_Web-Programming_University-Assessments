@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Task 4</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".removeButton").click(function() {
+    $(this).closest("tr").remove();
+  });
+});
+</script>
+</head>
+<body>
+
+<table border="1" cellspacing="0" width="30%">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Saad Rehman</td>
+      <td>23</td>
+      <td><button class="removeButton">Remove</button></td>
+    </tr>
+    <tr>
+      <td>Ali Shaikh</td>
+      <td>22</td>
+      <td><button class="removeButton">Remove</button></td>
+    </tr>
+    <tr>
+      <td>Talib Hussain</td>
+      <td>22</td>
+      <td><button class="removeButton">Remove</button></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
