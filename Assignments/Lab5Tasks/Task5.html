@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Task 5</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    var elementClass = $(this).attr("class");
+    var elementId = $(this).attr("id");
+    alert("Class: " + elementClass + "\nID: " + elementId);
+  });
+});
+</script>
+</head>
+<body>
+
+<p id="paragraph1" class="clickable paragraph Class">Click me</p>
+<div id="Div 1" class="clickable div Class">Click me too</div>
+
+</body>
+</html>
