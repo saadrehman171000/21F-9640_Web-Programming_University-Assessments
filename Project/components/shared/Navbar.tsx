@@ -205,5 +205,4 @@ const Navbar = ({ dashboard }: { dashboard: boolean }) => {
     </div>
   );
 };
-
 export default Navbar;
