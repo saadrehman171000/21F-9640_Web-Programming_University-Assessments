@@ -25,7 +25,8 @@ import menu from "@/public/menu.svg";
 
 const Navbar = ({ dashboard }: { dashboard: boolean }) => {
   const TOP_OFFSET = 50;
-  const { isAuthenticated } = useKindeBrowserClient();
+  const { isAuthenticated, user } = useKindeBrowserClient();
+  console.log(user);
 
   const pathname = usePathname();
   const [showBackground, setShowBackground] = useState(false);
@@ -53,11 +54,11 @@ const Navbar = ({ dashboard }: { dashboard: boolean }) => {
     >
       <div className="flex flex-row items-center justify-between">
         <div>
-          <Link href={"/"} className="tracking-tight font-bold text-lg">
+          <Link href={"/"} className="tracking-tighter font-bold text-lg">
             Handphone
           </Link>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:block tracking-tighter">
           <div className="flex gap-10">
             <Link
               className={`${pathname === "/" ? "font-bold" : "text-black"}`}
@@ -66,19 +67,14 @@ const Navbar = ({ dashboard }: { dashboard: boolean }) => {
               HOME
             </Link>
             <Link
-              className={`${pathname === "/page" ? "font-bold" : "text-black"}`}
-              href={"/page"}
-            >
-              PAGE
-            </Link>
-            <Link
               className={`${
-                pathname === "/brand" ? "font-bold" : "text-black"
+                pathname === "/products" ? "font-bold" : "text-black"
               }`}
-              href={"/brand"}
+              href={"/products"}
             >
-              BRAND
+              PRODUCTS
             </Link>
+
             <Link
               className={`${pathname === "/blog" ? "font-bold" : "text-black"}`}
               href={"/blog"}
@@ -103,7 +99,7 @@ const Navbar = ({ dashboard }: { dashboard: boolean }) => {
             </Link>
           </div>
         </div>
-        <div className="block md:hidden">
+        <div className="block md:hidden tracking-tighter">
           <Sheet>
             <SheetTrigger className="align-middle">
               <Image
@@ -128,20 +124,13 @@ const Navbar = ({ dashboard }: { dashboard: boolean }) => {
                 </Link>
                 <Link
                   className={`${
-                    pathname === "/page" ? "font-bold" : "text-black"
+                    pathname === "/products" ? "font-bold" : "text-black"
                   }`}
-                  href={"/page"}
+                  href={"/products"}
                 >
-                  PAGE
+                  PRODUCTS
                 </Link>
-                <Link
-                  className={`${
-                    pathname === "/brand" ? "font-bold" : "text-black"
-                  }`}
-                  href={"/brand"}
-                >
-                  BRAND
-                </Link>
+
                 <Link
                   className={`${
                     pathname === "/blog" ? "font-bold" : "text-black"
@@ -189,14 +178,14 @@ const Navbar = ({ dashboard }: { dashboard: boolean }) => {
               ) : (
                 <Link
                   href={"/dashboard"}
-                  className="bg-black rounded-2xl text-white px-3 py-1"
+                  className="bg-black rounded-xl text-white px-3 py-1 tracking-tighter"
                 >
-                  Dashboard
+                  DASHBOARD
                 </Link>
               )}
 
-              <LogoutLink className="rounded-2xl border px-3 py-1 bg-black text-white">
-                Logout
+              <LogoutLink className="rounded-xl border px-3 py-1 bg-black text-white tracking-tighter">
+                LOGOUT
               </LogoutLink>
             </div>
           )}
@@ -205,4 +194,5 @@ const Navbar = ({ dashboard }: { dashboard: boolean }) => {
     </div>
   );
 };
+
 export default Navbar;

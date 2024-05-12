@@ -126,4 +126,5 @@ const Blog = () => {
     </Form>
   );
 };
+
 export default Blog;
