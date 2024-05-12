@@ -12,5 +12,4 @@ const EditAboutPage = () => {
   );
 };
 
-
 export default EditAboutPage;
