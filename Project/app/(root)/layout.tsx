@@ -18,6 +18,4 @@ export default async function RootLayout({
       <Footer />
     </div>
   );
-
-
 }
